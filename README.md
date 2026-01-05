@@ -1,18 +1,18 @@
-# SOLID Principles in C#
+# SOLID Principles
 
-This repository contains **simple and practical C# examples** demonstrating the **SOLID principles** of object-oriented design.
+SOLID principles are five design guidelines intended to make software design more understandable, flexible, and maintainable. These principles were introduced by Robert C. Martin and are foundational in object-oriented design (OOD). They help in avoiding software design issues that can lead to rigid, fragile, and hard-to-maintain code.
 
+The SOLID acronym stands for:
 
-The goal is to show **how and why** SOLID improves code quality, maintainability, and extensibility.
-
+S - Single Responsibility Principle (SRP)
+O - Open/Closed Principle (OCP)
+L - Liskov Substitution Principle (LSP)
+I - Interface Segregation Principle (ISP)
+D - Dependency Inversion Principle (DIP)
 ---
 
-## SOLID Principles
+## Single Responsipility Principle
+- A class should only have one job or one responsiblity
+- This principle helps to ensure that each class or module in system does one thing and does it well
 
-- **S** — Single Responsibility Principle  
-- **O** — Open / Closed Principle  
-- **L** — Liskov Substitution Principle  
-- **I** — Interface Segregation Principle  
-- **D** — Dependency Inversion Principle  
-
-
+  
