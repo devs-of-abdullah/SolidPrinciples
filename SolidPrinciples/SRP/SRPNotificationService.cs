@@ -1,7 +1,7 @@
 ﻿
-namespace SolidPrinciples.SRP
+namespace SRP.NotificationService
 {
-    public class NotificationService
+    public class SRPNotificationService
     {
         public enum enNotificationType { Email, SMS, Fax}
         public class EmailService
@@ -43,12 +43,12 @@ namespace SolidPrinciples.SRP
                 FaxService.SendFax(to, message);
             }
         }
-        public void ExecuteClass()
+        public static void ExecuteClass()
         {
-            NotificationService service= new NotificationService();
+            SRPNotificationService service= new SRPNotificationService();
 
             // email
-            service.SendNotification("realahmetabdullah@gmail.com", "hello me", NotificationService.enNotificationType.Email);
+            service.SendNotification("realahmetabdullah@gmail.com", "hello me", SRPNotificationService.enNotificationType.Email);
 
             //sms
             service.SendNotification("+123456543", "Hi abdullah", enNotificationType.SMS);

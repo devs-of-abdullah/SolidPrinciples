@@ -1,10 +1,12 @@
-﻿using SolidPrinciples.SRP;
-
+﻿using OCP.NotificationService;
+using SRP.NotificationService;
 public class Program
 {
     public static void Main(string[] args)
     {
-        NotificationService service = new NotificationService();
-        service.ExecuteClass();
+        // SRP
+        SRPNotificationService.ExecuteClass();
+       // Open closed 
+       OCPNotificationService.ExecuteClass();
     }
 }
