@@ -14,5 +14,6 @@ The SOLID acronym stands for:
 ## Single Responsipility Principle
 - A class should only have one job or one responsiblity
 - This principle helps to ensure that each class or module in system does one thing and does it well
-
-  
+## Open/Closed Principle
+- A class should be open for extenshions closed for modifications
+- This principle helps to add new code without change existing code
