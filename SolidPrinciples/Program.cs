@@ -8,5 +8,8 @@ public class Program
         SRPNotificationService.ExecuteClass();
        // Open closed 
        OCPNotificationService.ExecuteClass();
+        // LCP
+        LSPPersonService.ExecuteClass();
     }
 }
+
