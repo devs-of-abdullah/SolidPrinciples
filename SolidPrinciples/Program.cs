@@ -4,12 +4,14 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        // SRP
-        SRPNotificationService.ExecuteClass();
-       // Open closed 
-       OCPNotificationService.ExecuteClass();
-        // LCP
-        LSPPersonService.ExecuteClass();
+     
+        SRPNotificationService.ExecuteClass();   // SRP
+      
+        OCPNotificationService.ExecuteClass(); // Open closed 
+        
+        LSPPersonService.ExecuteClass(); // LCP
+
+        ISPDeviceService.ExecuteClass(); // ISP
     }
 }
 
