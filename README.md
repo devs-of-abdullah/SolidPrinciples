@@ -17,3 +17,6 @@ The SOLID acronym stands for:
 ## Open/Closed Principle
 - A class should be open for extenshions closed for modifications
 - This principle helps to add new code without change existing code
+## Liskov Substituation Principle 
+- A child class should not affect parernt class
+- This principle helps to adding features to class without affectness
