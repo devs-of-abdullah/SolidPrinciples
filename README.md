@@ -23,3 +23,7 @@ The SOLID acronym stands for:
 ## Interface Segregaton Principle
 - A class only inherits its needs
 - This principle helps to inherit only needed functions 
+## Dependency Inversion Principle
+- High level moduls should not depend on low level moduls
+- should depends on abstractions or interfaces
+-  
