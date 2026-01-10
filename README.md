@@ -20,3 +20,10 @@ The SOLID acronym stands for:
 ## Liskov Substituation Principle 
 - A child class should not affect parernt class
 - This principle helps to adding features to class without affectness
+## Interface Segregaton Principle
+- A class only inherits its needs
+- This principle helps to inherit only needed functions 
+## Dependency Inversion Principle
+- High level moduls should not depend on low level moduls
+- should depends on abstractions or interfaces
+-  
