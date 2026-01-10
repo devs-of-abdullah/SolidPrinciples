@@ -12,6 +12,8 @@ public class Program
         LSPPersonService.ExecuteClass(); // LCP
 
         ISPDeviceService.ExecuteClass(); // ISP
+
+        DIPReports.ExecuteClass(); //DIP
     }
 }
 
